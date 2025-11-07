@@ -1,0 +1,18 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-boot-reactjs-app-ow
+  annotations:
+    github.com/project-slug: kisaro247/spring-boot-reactjs-app-ow
+    backstage.io/kubernetes-id: springboot-demo
+    backstage.io/kubernetes-namespace: demo-project
+    backstage.io/kubernetes-label-selector: 'app=springboot-demo'
+  tags:
+    - springboot
+    - api
+    - microservice
+spec:
+  type: service
+  lifecycle: experimental
+  owner: kisaro247
